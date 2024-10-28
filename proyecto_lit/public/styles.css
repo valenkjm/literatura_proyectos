@@ -1,0 +1,132 @@
+/* Estilos generales */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Fondo claro */
+  }
+  
+  /* Header */
+  
+  header {
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 20px;
+    text-align: center;
+    margin: 30px; 
+  }
+  
+  header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Descripción */
+  
+  #descripcion {
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco */
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+  }
+  
+  #descripcion p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /* Tabla de proyectos */
+  
+  #tabla-proyectos {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #tabla-proyectos th, #tabla-proyectos td {
+    border: 1px solid #ddd; /* Borde gris claro */
+    padding: 10px;
+    text-align: left;
+  }
+  
+  #tabla-proyectos th {
+    background-color: #f0f0f0; /* Fondo claro */
+  }
+  
+  #tabla-proyectos tr:nth-child(even) {
+    background-color: #f9f9f9; /* Fondo claro con sombra */
+  }
+  
+  /* Sección de "Imagina y crea" */
+  
+  #crea-tu-proyecto {
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px;
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+  }
+  
+  #crea-tu-proyecto h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #mensaje-crea {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  #boton-subir {
+    background-color: #4CAF50; /* Fondo verde */
+    color: #fff; /* Texto blanco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Esquinas redondeadas */
+    cursor: pointer;
+  }
+  
+  #boton-subir:hover {
+    background-color: #3e8e41; /* Fondo verde oscuro */
+  }
+  
+  /* Footer */
+  
+  footer {
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 10px;
+    text-align: center;
+    clear: both;
+  }
+  
+  footer p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  footer a {
+    color: #fff; /* Texto blanco */
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #ccc; /* Texto gris claro */
+  }
+
+  .sesion{
+    text-align: initial;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 75%;
+    background-color: #333;
+    color: #f9f9f9;
+  }
+

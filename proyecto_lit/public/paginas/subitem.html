@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subir Proyecto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Subir Proyecto</h1>
+        <h2>Aquí puedes subir tu proyecto de literatura</h2>
+        <div class="drop-zone">
+            <p>Soltar archivo</p>
+            <small>Solo se admite archivos .doc, .word y .wordx</small>
+            <input type="file" id="file" name="file">
+        </div>
+        <div id="archivo-subido" style="display: none;">
+            <input type="text" id="nombre-proyecto" placeholder="Nombre del proyecto">
+            <button id="publicar-proyecto">Publicar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
